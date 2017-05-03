@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Fabrice Etiennette: Front End Developer from The Future</title>
+
+    <!-- Link to my css file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://use.fontawesome.com/ea1f7fc936.js"></script>
+
+  </head>
+  <a id="page-top"></a>
+  <body>
+
+          <!-- Navigation -->
+          <a id="menu-toggle" class="btn btn-dark btn-lg toggle"><i id="transform" class="fa fa-bars"></i></a>
+               <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+          <!-- Close Icon -->
+           <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
+            <i id="close-it" class="fa fa-times"></i></a>
+            <!-- Start Links -->
+            <li class="sidebar-brand">
+              <a href="#"></a>
+            </li>
+            <li>
+              <a id="home" href="#top"><i class="glyphicon glyphicon-chevron-right" aria-hidden="true"></i> Home</a>
+            </li>
+            <li>
+              <a id="about" href="#about-link"><i class="glyphicon glyphicon-chevron-right" aria-hidden="true"></i> About</a>
+            </li>
+            <li>
+              <a id="portfolio" href="#cool-stuff"><i class="glyphicon glyphicon-chevron-right" aria-hidden="true"></i> What's New?</a>
+            </li>
+            <li>
+              <a id="contact-me" href="#contact-info"><i class="glyphicon glyphicon-chevron-right" aria-hidden="true"></i> Contact</a>
+            </li>
+        </ul>
+      </nav>
+
+      <!-- Hero -->
+      <a id="top"></a>
+      <div class="intro-header">
+        <div class="overlay">
+          <p class="lead">Fabrice Etiennette</p>
+        </div>
+      </div>
+
+    <!-- About Me Section -->
+    <a id="about-link"></a>
+    <div id="about-me" class="container-fluid">
+      <div class="row">
+        <div class="container">
+          <div class="row rowspacing">
+            <div class="col-sm-12 col-md-7">
+              <h2 id="about-title" class="text-center">About Me</h2>
+              <div class="line"></div>
+              <p>
+                Hello. As you can probably tell, my name is Fabrice, and I am a student front-end developement
+                currently based in Mauritius. I have experience with HTML5, CSS3, Bootstrap and
+                jQuery. I am always looking to stay on top of the latest trends, and learn the best
+                technologies. Feel free to reach out anytime, as I am always willing to have a conversation about potential opportunities.
+              </p>
+            </div>
+            <div id="my-picture" class="col-sm-12 col-md-4 text-center">
+              <img class="mypic responsive" src="img/me.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Whats New Section -->
+    <a id="cool-stuff"></a>
+    <div id="whats-new" class="container-fluid">
+      <div class="row">
+        <div class="container">
+          <div class="row rowspacing">
+        <div class="col-md-12 text-center">
+          <h2>What's New?</h2>
+        </div>
+        <div class="col-md-12">
+          <div class="wrap">
+            <img id="react" src="img/react.png" height="100px" width="118px" data-toggle="modal" data-target=".bs-example-modal-lg">
+            <p>
+              I am currently learning React, and think it is the go-to solution for
+              building scalable web apps. The next step would be to learn React Native, in order
+              to build iOS and Android apps with Javascript.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Work With Me -->
+    <div id="work">
+      <div class="overlay-work">
+        <div class="col-md-12">
+          <h2>Get In Touch</h2>
+          <div id="contact-wrapper">
+          <form id="#messageMe" action="index.php">
+            <div class="form-group">
+              <!-- Name -->
+              <label for="name"></label>
+              <input type="text" class="form-control" name="name" placeholder="Your Name" maxlength="100" required>
+
+              <!-- E-Mail -->
+              <label for="email"></label>
+              <input type="email" class="form-control" name="email" placeholder="Your E-Mail" maxlength="100" required>
+
+              <!-- Subject -->
+              <label for="subject"></label>
+              <input type="subject" class="form-control" name="subject" placeholder="Subject" maxlength="100" required>
+
+              <!-- Message -->
+              <label for="message"></label>
+              <textarea name="message" rows="8" cols="40" maxlength="500" required></textarea>
+               
+              <!-- Submit -->
+              <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+            </div>
+          </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="footer" class="container-fluid">
+      <div class="row rowspacing">
+        <div class="col-md-12 text-center">
+          <div id="contact-info" class="col-md-12 text-center">
+            <p id="email-clicked">E-Mail has been copied to clipboard!</p>
+            <li id="email-me" data-clipboard-text="fabrice.etiennette@hotmail.com">
+              <a>
+                <i class="fa fa-envelope fa-fw fa-2x"></i>
+              </a>
+            </li>
+
+            <li>
+                 <a target="_blank" href="https://twitter.com/FabEtiennette/">
+                <i class="fa fa-twitter fa-fw fa-2x"></i>
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/in/fabricetiennette/">
+                <i class="fa fa-linkedin fa-fw fa-2x"></i>
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" href="https://www.instagram.com/fabricetiennette/">
+                <i class="fa fa-instagram fa-fw fa-2x"></i>
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" href="https://github.com/fabricetiennette/">
+                <i class="fa fa-github fa-fw fa-2x"></i>
+              </a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Link to my js file -->
+    <script src="js/application.js"></script>
+  </body>
+</html>
